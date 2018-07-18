@@ -1,0 +1,30 @@
+.PostCard {
+  padding: 1rem;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid #e9ecef;
+  position: relative;
+  z-index: 1;
+  .remove {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: #ced4da;
+    font-size: 1.25rem;
+    cursor: pointer;
+    &:hover {
+      color: #ff6b6b;
+    }
+  }
+  .date {
+    font-size: 0.75rem;
+    color: #868e96;
+  }
+  .text {
+    margin-top: 1rem;
+    white-space: pre-wrap;
+  }
+  &+& {
+    margin-top: 1rem;
+  }
+}
