@@ -45,7 +45,7 @@ class App extends Component {
       this.setState({
         posts: JSON.parse(posts),
       });
-      this.id = posts.length;
+      this.id = posts[0].id;
     }
   }
 
