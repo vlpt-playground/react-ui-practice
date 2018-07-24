@@ -42,10 +42,11 @@ class App extends Component {
   componentDidMount() {
     const posts = localStorage.getItem('posts');
     if (posts) {
+      const parsed = JSON.parse(posts);
       this.setState({
-        posts: JSON.parse(posts),
+        posts: parsed,
       });
-      this.id = posts[0].id;
+      this.id = parsed[0] ? parsed[0].id : 0;
     }
   }
 
