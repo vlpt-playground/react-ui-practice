@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CloseIcon from 'react-icons/lib/md/close';
+import { MdClose as CloseIcon } from 'react-icons/md';
 
 import './WriteBox.scss';
 import Button from '../Button/Button';

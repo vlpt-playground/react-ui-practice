@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import HomeIcon from 'react-icons/lib/md/home';
-import NotificationIcon from 'react-icons/lib/md/notifications';
-import MailIcon from 'react-icons/lib/md/mail';
+import {
+  MdHome as HomeIcon,
+  MdNotifications as NotificationIcon,
+  MdEmail as MailIcon,
+} from 'react-icons/md';
+
 import classNames from 'classnames';
 
 import './HeaderNav.scss';

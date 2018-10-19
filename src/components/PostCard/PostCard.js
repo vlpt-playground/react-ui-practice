@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RemoveIcon from 'react-icons/lib/md/delete';
+import { MdDelete as RemoveIcon } from 'react-icons/md';
 import koLocale from 'date-fns/locale/ko';
 import differenceInDays from 'date-fns/difference_in_days';
 import distanceInWords from 'date-fns/distance_in_words';
